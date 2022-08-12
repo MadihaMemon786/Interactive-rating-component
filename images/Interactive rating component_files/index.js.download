@@ -1,0 +1,16 @@
+var starButton = document.querySelectorAll(".star").length;
+let lastIndex = -1;
+
+for (var i = 0; i < starButton; i++) {
+  document.querySelectorAll(".star")[i].addEventListener("click", function () {
+    this.style.backgroundColor = "red";
+
+    if (lastIndex == -1) {
+      console.log("called once");
+      lastIndex = i;
+    } else {
+      document.querySelectorAll(".star")[lastIndex].style.backgroundColor =
+        "blue";
+    }
+  });
+}

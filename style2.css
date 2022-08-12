@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+}
+
+.container {
+  width: 400px;
+  height: 180px;
+  margin: 20% auto;
+  background-color: hsl(216, 12%, 8%);
+  border-radius: 13%;
+  padding: 2rem;
+}
+
+h2 {
+  color: white;
+  padding-left: 20px;
+}
+
+p {
+  color: hsl(216, 12%, 54%);
+  padding-left: 20px;
+  line-height: 25px;
+}
